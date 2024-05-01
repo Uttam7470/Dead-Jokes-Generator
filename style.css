@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    /* background: linear-gradient(to right, #a6269d, #21f3f0); */
+background-color: transparent;
+    height: 400px;
+    width: 700px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 5px  0px rgb(0, 0,0, 0.6);
+    /* box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.2); */
+}
+h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#wrapper{
+    /* background: linear-gradient(to top, #ffffff, #775b77); */
+    background: linear-gradient(to right, #08c2cb, #a32f97);
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    /* background: linear-gradient(to right, #ffea00, #c143a6, #5aa31ae2); */
+    background: linear-gradient(to right, #00d5ff, #ff3bf2);
+    /* background: linear-gradient(to right, #ff9800, #ffeb3b); */
+    /* background: linear-gradient(to right, #9b59b6, #e91e63); */
+    /* background: linear-gradient(to right, #3498db, #2ecc71); */
+
+    padding: 10px;
+    font-size: 18px;
+    /* border: 2px solid; */
+    width: fit-content;
+    max-width:450px ;
+    height: fit-content;
+    max-height:100px ;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 3px 0px;
+}
+button{
+    height: 30px;
+    width: 180px;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: 1px 1px 3px 0px;
+    background-color: #fff;
+    color: black;
+    background-color: #21f3f0;
+}
+
+
